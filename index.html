@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Landing Page | MOKA</title>
+    <title>Index | MOKA</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -16,10 +16,21 @@
     <header>
         <nav class="navbar">
             <h2 class="titleNavBar mokaTitle">MOKA</h2>
+            
             <div>
-                <a href="Public/HTML/logIn.html" class="navbarOption navbarOptionMargin">INICIAR SESION</a>
-                <a href="Public/HTML/signUp.html" class="navbarOption navbarOptionMargin">REGISTRARSE</a>
-            </div>
+                <a href="Public/HTML/subIndex.html" class="navbarOption navbarOptionMargin">INICIO</a>
+                <a href="Public/HTML/vetAppointments.html" class="navbarOption navbarOptionMargin">VETERINARIA</a>
+                <a href="Public/HTML/hotelReservations.html" class="navbarOption navbarOptionMargin">HOTEL</a>
+                <a href="Public/HTML/settings.html" class="navbarOption navbarOptionMargin">CONFIGURACIONES</a> 
+                <a href="Public/HTML/reports.html" class="navbarOption navbarOptionMargin">REPORTES</a> 
+            </div> 
+            <div class="dropdown">
+                <button class="userName dropbtn" id="userNameIndex"></button>   
+                <div class="dropdown-content">
+                  <a href="Public/HTML/personalProfile.html">Perfil</a>
+                  <button onclick="CerrarSesion()">Cerrar Sesión</button>
+                </div>
+              </div>
             
         </nav>
     </header>
@@ -34,6 +45,9 @@
                 <p class="paragraph">
                     Contamos con una gran variedad de médicos veterinarios especialistas en las áreas de medicina general, anestesia, fisioterapia y rehabilitación y constantemente estamos en busca de integrar nuevos profesionales que aporten con su experiencia pero que sobre todo tengan una gran calidez humana.
                 </p>
+                <div class="docBtnContainer">
+                    <a href="Public/HTML/vetAppointments.html" class="btnDoctors mainColor">Visita nuestra clínica</a>   
+                </div>
             </div>
             <img src="Public/Media/IMG/dogsPack.webp" alt="Cachorros en canasta" class="imgWidthSize">
         </div>
@@ -45,23 +59,24 @@
                 <p class="paragraph">
                     La veterinaria Moka cuenta con un único hotel de mascotas que ofrece un ambiente limpio y seguro donde los animales pueden permanecer por un tiempo, durante el día o la noche donde los dueños que requieran salir del país o que tengan alguna circunstancia que les impida hacerse cargo de sus mascotas, puedan dejarlas en buenas manos.
                 </p>
+                <div class="docBtnContainer">
+                    <a href="Public/HTML/hotelReservations.html" class="btnDoctors mainColor">Visita nuestro hotel</a>   
+                </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="container fourthContainer"> 
+        <div class="container thirdContainer">
             <div>
-                <p class="pTitle bottomBorder">Los cuidamos con amor</p>
-                <p class="paragraph">● Gracias a nuestra plataforma digital, puedes solicitar nuestros servicios desde la comodidad de tu casa.</p>
-                <p class="paragraph">● Ofrecemos hospedaje todo incluido y trato V.I.P, porque tu mascota se lo merece.</p>
-                <p class="paragraph">● Los tratamos con amor, porque sabemos que son un miembro más de la familia.</p>
+                <p class="pTitle bottomBorder">Atención de calidad</p>
+                <p class="paragraph">
+                    Tenemos a los mejores veterinarios, con una calidad de atención única; cuidamos a su mascota y la tratamos de la mejor manera, asegurando su bienestar y buscando darle el trato más cálido posible.
+                </p>
+                <div class="docBtnContainer">
+                    <a href="Public/HTML/doctorsList.html" class="btnDoctors">Nuestros veterinarios</a>   
+                </div>
             </div>
-            <div>
-                <p class="pTitle bottomBorder">Seguimos mejorando</p>
-                <p class="paragraph">● Somos una familia pequeña, pero seguimos buscando personal que atienda a tu mascota de la mejor manera.</p>
-                <p class="paragraph">● Solo tenemos local en Milla de Oro, Curridabat; pero seguimos trabajando para crecer más.</p>
-                <p class="paragraph">● Nuestras instalaciones aún están en desarrollo, pero lo compesamos tratándolos con amor.</p>
-            </div>
+            <img src="Public/Media/IMG/veterinario.webp" alt="Veterinario" class="imgWidthSize">
         </div>
     </section>
     <section>
@@ -108,7 +123,10 @@
                 <p>Copyright 2022 | MOKA / SmartFhisk | Todos los derechos reservados</p>
             </div>       
         </div>
-    </footer> 
+    </footer>
+
+    <script src="Public/JS/Services/sesionService.js"></script>
+    <script src="Public/JS/Controller/sesionController.js"></script>
 </body>    
 
 </html>
