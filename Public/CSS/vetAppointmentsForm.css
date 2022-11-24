@@ -1,0 +1,111 @@
+.mainContainer{
+    margin: 50px 300px;
+    padding: 30px;
+    border: 3px solid #082F32;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.subTitle{
+    text-align: center;
+    font-size: 22px;
+    color: #2C454B;
+}
+.checkboxContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.inputForm{
+    font-size: 18px;
+    color: #082F32;
+    border: 1px solid #082F32;
+    border-radius: 10px;
+    padding: 7px;
+    align-items: center;
+    width: 350px;
+    margin: 15px;
+}
+.selectInput{
+    font-size: 18px;
+    color: #082F32;
+    border: 1px solid #082F32;
+    border-radius: 10px;
+    padding: 7px;
+    align-items: center;
+    width: 368px;
+    margin: 15px;
+}
+
+.inputFormTextarea{
+    margin: 0 200px;
+    width: 800px;
+    font-size: 18px;
+}
+
+.btnAccept{
+    width: 500px;
+    background-color:#EA803F;
+    color: white;
+    padding: 12px;
+    font-size: 22px;
+    font-weight: light;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.btnAccept:hover{
+    background-color:#eb8a4e;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.reportContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.bottomBorderDivider{
+    border-bottom: 2px solid #082F32;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.btnContainer{
+    width: 100%;
+    text-align: center;
+}
+.formTitle{
+    font-size: 40px;
+    text-align: center;
+    color: #082F32;
+}
+.formTitleContainer{
+    border-bottom: 3px solid #082F32;
+}
+.inputContainerCheckBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.checkboxLabel{
+    margin: 50px;
+    font-size: 18px;
+    color: #082F32;
+}

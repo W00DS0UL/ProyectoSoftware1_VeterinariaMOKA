@@ -1,0 +1,158 @@
+body {
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+.indexTitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #2C454B;
+}
+.indexTitle span{
+    color: #783912;
+}
+
+.bannerImage{
+    margin: 0 auto;
+    width: 100%;
+}
+.imgWidthSize{
+    width: 800px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    color: #e6e6e6;
+}
+.paragraph{
+    margin: 50px;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    
+}
+.pTitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.firstContainer{
+    background: linear-gradient(to bottom, #2C454B, #082F32 );
+}
+.secondContainer{
+    background: linear-gradient(to bottom, #365253, #2C454B );
+}
+.thirdContainer{
+    background: linear-gradient(to bottom, #602d0e, #4c240b );
+}
+.fourthContainer{
+    background-color: #4c240b;
+}
+
+.bottomBorder{
+    border-bottom: 2px solid white;
+    padding: 30px;
+    margin: 0 40px;
+}
+
+.sectionTitle{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.rowContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background: linear-gradient(to bottom, #602d0e, #4c240b );
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #e6e6e6;
+}
+
+.doctorsInformationContainer{
+    color: #e6e6e6;
+}
+.doctorInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.docData{
+    font-size: 22px;
+    margin: 10px 0;
+}
+.quote{
+    font-style: italic;
+}
+.vetProfilePicture{
+    height: 300px;
+    border-radius: 100%;
+}
+.googleMapsContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.googleMapsContainer iframe{
+    width: 100%;
+    height: 500px;
+}
+.btnDoctors{
+    width: 300px;
+    background-color:#082F32;
+    color: white;
+    padding: 12px;
+    font-size: 22px;
+    font-weight: light;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.btnDoctors:hover{
+    background-color:#365253    ;
+}
+
+.mainColor{
+    background-color:#602d0e;
+}
+.mainColor:hover{
+    background-color:#4c240b;
+}
+.docBtnContainer{
+    text-align: center;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+}
+.locationTitle{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}

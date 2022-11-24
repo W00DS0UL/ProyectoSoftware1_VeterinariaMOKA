@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Index | MOKA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="titleNavBar mokaTitle">MOKA</h2>
+            
+            <div>
+                <a href="subIndex.html" class="navbarOption navbarOptionMargin">INICIO</a>
+                <a href="vetAppointments.html" class="navbarOption navbarOptionMargin">VETERINARIA</a>
+                <a href="hotelReservations.html" class="navbarOption navbarOptionMargin">HOTEL</a>
+                <a href="settings.html" class="navbarOption navbarOptionMargin">CONFIGURACIONES</a> 
+                <a href="reports.html" class="navbarOption navbarOptionMargin">REPORTES</a> 
+            </div> 
+            <div class="dropdown">
+                <button class="userName dropbtn" id="userNameIndex"></button>   
+                <div class="dropdown-content">
+                  <a href="personalProfile.html">Perfil</a>
+                  <button onclick="CerrarSesion()">Cerrar Sesión</button>
+                </div>
+              </div>
+            
+        </nav>
+    </header>
+    <h1 class="indexTitle">Veterinaria <span>MOKA</span></h1>
+    <section class="firstSection">
+        <img src="../Media/IMG/petsBanner.webp" alt="Banner Veterinaria Moka" class="bannerImage" />
+    </section>
+    <section>
+        <div class="container firstContainer">
+            <div>
+                <p class="pTitle bottomBorder">Servicio Médico</p>
+                <p class="paragraph">
+                    Contamos con una gran variedad de médicos veterinarios especialistas en las áreas de medicina general, anestesia, fisioterapia y rehabilitación y constantemente estamos en busca de integrar nuevos profesionales que aporten con su experiencia pero que sobre todo tengan una gran calidez humana.
+                </p>
+                <div class="docBtnContainer">
+                    <a href="vetAppointments.html" class="btnDoctors mainColor">Visita nuestra clínica</a>   
+                </div>
+            </div>
+            <img src="../Media/IMG/dogsPack.webp" alt="Cachorros en canasta" class="imgWidthSize">
+        </div>
+
+        <div class="container secondContainer"> 
+            <img src="../Media/IMG/dogEating.webp" alt="Perro comiendo pastel" class="imgWidthSize">
+            <div>
+                <p class="pTitle bottomBorder">Servicio de Hotel</p>
+                <p class="paragraph">
+                    La veterinaria Moka cuenta con un único hotel de mascotas que ofrece un ambiente limpio y seguro donde los animales pueden permanecer por un tiempo, durante el día o la noche donde los dueños que requieran salir del país o que tengan alguna circunstancia que les impida hacerse cargo de sus mascotas, puedan dejarlas en buenas manos.
+                </p>
+                <div class="docBtnContainer">
+                    <a href="hotelReservations.html" class="btnDoctors mainColor">Visita nuestro hotel</a>   
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container thirdContainer">
+            <div>
+                <p class="pTitle bottomBorder">Atención de calidad</p>
+                <p class="paragraph">
+                    Tenemos a los mejores veterinarios, con una calidad de atención única; cuidamos a su mascota y la tratamos de la mejor manera, asegurando su bienestar y buscando darle el trato más cálido posible.
+                </p>
+                <div class="docBtnContainer">
+                    <a href="doctorsList.html" class="btnDoctors">Nuestros veterinarios</a>   
+                </div>
+            </div>
+            <img src="../Media/IMG/veterinario.webp" alt="Veterinario" class="imgWidthSize">
+        </div>
+    </section>
+    <section>
+        <div class="infoCard googleMapsContainer">
+            <p class="locationTitle">
+                Ubicación
+            </p>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Milla%20de%20Oro%20Plaza&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a>
+                    <br>
+                    <a href="https://www.embedgooglemap.net"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <div class="footerContainer">
+                <div class="footerSubContainer">
+                    <p class="footerTitle">MOKA</p>
+                    <p class="footerData">Teléfono: +506 8888 8888</p>
+                    <p class="footerData">WhatsApp: +506 6666 6666</p>
+                    <p class="footerData">Dirección: San José, Costa Rica</p>
+                    <p class="footerData">Correo electrónico: vetmoka@gmail.com</p>
+                </div>
+                <div class="footerSubContainer">
+                    <p class="footerTitle">Redes Sociales</p>
+                    <div class="socialContainer">
+                        <a href="http://www.facebook.com" class="socialLink sociaMediaLogo" target="_blank"><img src="../Media/IMG/Facebook - Negative.svg" alt="Facebook logo"></a>
+                        <a href="http://www.instagram.com" class="socialLink sociaMediaLogo" target="_blank"><img src="../Media/IMG/Twitter - Negative.svg" alt="Twitter logo"></a>
+                        <a href="http://www.twitter.com" class="socialLink sociaMediaLogo" target="_blank"><img src="../Media/IMG/Instagram - Negative.svg" alt="Instagram logo"></a>
+                    </div>
+                </div>
+                <div class="footerSubContainer powerByContainer">
+                    <p class="footerTitle">Desarrollado por</p>
+                    <a href="../SmartFhisk/Proyecto LandingPage/index.html" class="socialLink" target="_blank">
+                        <p class="smartFhisk">SmartFhisk</p>
+                    </a>
+                </div>
+            </div>
+            <div class="footerCopyright">
+                <p>Copyright 2022 | MOKA / SmartFhisk | Todos los derechos reservados</p>
+            </div>       
+        </div>
+    </footer>
+
+    <script src="../JS/Services/sesionService.js"></script>
+    <script src="../JS/Controller/sesionController.js"></script>
+</body>    
+
+</html>

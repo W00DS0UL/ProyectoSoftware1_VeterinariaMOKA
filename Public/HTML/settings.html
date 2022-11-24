@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuraciones | MOKA</title>
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="../CSS/settings.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="titleNavBar mokaTitle">MOKA</h2>
+            
+            <div>
+                <a href="subIndex.html" class="navbarOption navbarOptionMargin">INICIO</a>
+                <a href="vetAppointments.html" class="navbarOption navbarOptionMargin">VETERINARIA</a>
+                <a href="hotelReservations.html" class="navbarOption navbarOptionMargin">HOTEL</a>
+                <a href="settings.html" class="navbarOption navbarOptionMargin">CONFIGURACIONES</a> 
+                <a href="reports.html" class="navbarOption navbarOptionMargin">REPORTES</a> 
+            </div> 
+            <div class="dropdown">
+                <button class="userName dropbtn" id="userNameIndex"></button>   
+                <div class="dropdown-content">
+                  <a href="personalProfile.html">Perfil</a>
+                  <button onclick="CerrarSesion()">Cerrar Sesión</button>
+                </div>
+              </div>
+            
+        </nav>
+    </header>
+    <h1 class="title">CONFIGURACIONES</h1>
+
+    <section>
+        <div class="settingsCardsContainer">
+            <div id="userDataConfigurationCard" class="infoCard cardMargin">
+                <h2>Configurar perfil</h2>
+                <p>
+                    En esta sección puede revisar y modificar sus datos personales, como su nombre, correo, teléfono, estado, y otros.
+                </p>
+                <a href="personalProfile.html" class="btnGoto">Ingresar</a>
+            </div>
+            <div id="petsListCard" class="infoCard cardMargin">
+                <h2>Ver listado de mascotas</h2>
+                <p>
+                    En esta sección usted podrá ver el listado de las mascotas y sus expedientes; además de poder agregar nuevas mascotas.
+                </p>
+                <a href="petsList.html" class="btnGoto">Ingresar</a>
+            </div>
+        </div>
+        <div class="settingsCardsContainer">
+            <div id="usersListCard" class="infoCard cardMargin">
+                <h2>Ver listado de usuarios</h2>
+                <p>
+                    En esta sección usted podrá ver el listado de usuarios que forman parte de la plataforma de MOKA, y sus respectivos datos; además de poder ver, detalladamente, la información de los usuarios, así como crear o modificar usuarios.
+                </p>
+                <a href="usersList.html" class="btnGoto">Ingresar</a>
+            </div>
+            <div id="paymentsListCard" class="infoCard cardMargin">
+                <h2>Métodos de pago</h2>
+                <p>
+                    En esta sección usted podrá ver los métodos de pago que posee dentro de la plataforma de MOKA; además de poder agregar nuevos métodos.
+                </p>
+                <a   href="paymentsList.html" class="btnGoto">Ingresar</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <div class="footerContainer">
+                <div class="footerSubContainer">
+                    <p class="footerTitle">MOKA</p>
+                    <p class="footerData">Teléfono: +506 8888 8888</p>
+                    <p class="footerData">WhatsApp: +506 6666 6666</p>
+                    <p class="footerData">Dirección: San José, Costa Rica</p>
+                    <p class="footerData">Correo electrónico: vetmoka@gmail.com</p>
+                </div>
+                <div class="footerSubContainer">
+                    <p class="footerTitle">Redes Sociales</p>
+                    <div class="socialContainer">
+                        <a href="http://www.facebook.com" class="socialLink sociaMediaLogo" target="_blank"><img src="../Media/IMG/Facebook - Negative.svg" alt="Facebook logo"></a>
+                        <a href="http://www.instagram.com" class="socialLink sociaMediaLogo" target="_blank"><img src="../Media/IMG/Twitter - Negative.svg" alt="Twitter logo"></a>
+                        <a href="http://www.twitter.com" class="socialLink sociaMediaLogo" target="_blank"><img src="../Media/IMG/Instagram - Negative.svg" alt="Instagram logo"></a>
+                    </div>
+                </div>
+                <div class="footerSubContainer powerByContainer">
+                    <p class="footerTitle">Desarrollado por</p>
+                    <a href="../SmartFhisk/Proyecto LandingPage/index.html" class="socialLink" target="_blank">
+                        <p class="smartFhisk">SmartFhisk</p>
+                    </a>
+                </div>
+            </div>
+            <div class="footerCopyright">
+                <p>Copyright 2022 | MOKA / SmartFhisk | Todos los derechos reservados</p>
+            </div>       
+        </div>
+    </footer>
+
+    <script src="../JS/Services/sesionService.js"></script>
+    <script src="../JS/Controller/sesionController.js"></script>
+    
+</body>
+</html>

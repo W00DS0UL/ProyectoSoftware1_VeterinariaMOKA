@@ -1,0 +1,112 @@
+.modal {
+    display: flex;
+    background-color: #ffffffad;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modalContainer {
+    padding: 2% 10%;
+    border: 5px solid #082F32;
+    border-radius: 15px;
+    margin: auto;
+    width: 90%;
+    max-width: 900px;
+    max-height: 90%;
+    background-color: #fff;
+}
+
+.modalShow {
+    transition: all 0.5s ease-out;
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.modalOut {
+    transition: all 0.2s ease;
+    opacity: 0;
+}
+
+.reservationsContainer {
+    margin: 50px 300px;
+    width: 8 00px;
+    height: 500px;
+    padding: 80px;
+    border: 3px solid #082F32;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: block;
+}
+
+.infoTitle {
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #082F32;
+}
+
+.imgMascota {
+    margin-bottom: 5%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.btnsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+}
+
+.btnStyle {
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+    margin: 15px auto;
+    border: 1px solid transparent;
+    border-radius: 17px;
+    padding: 10px 50px;
+    background-color: #EA803F;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btnStyle:hover {
+    background-color: #eb8a4e;
+}
+
+.btnCerrar {
+    color: #fff;
+    background-color: #082F32;
+}
+
+th {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: #082F32;
+}
+
+td {
+    padding: 5px 20px;
+}
+
+h2 {
+    text-align: center;
+}
